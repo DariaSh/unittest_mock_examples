@@ -1,7 +1,8 @@
 # unittest_mock_examples
-This repo contains simple examples of unittest.mock package usage  which I used for illustrating a blog article.
-Here you can find example of module bucket.py and my_module.py.
-Modules test_bucket.py and test_my_module.py contain test for modules above, correspondingly.
+This repo contains few simple examples of code and correpondong test illustrating simple case of use of unittest.mock package.
+Here you can find module bucket.py and my_module.py as well as tiny utils package with bucket_reader.py module inside.
+
+Modules test_bucket.py and test_my_module.py contain tests for modules bucket and my_module correspondingly.
 
 # requirements.txt
 For illustration of code using Google Cloud Bucket there is a need to install corresponding library. 
