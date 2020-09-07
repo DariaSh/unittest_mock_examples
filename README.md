@@ -7,4 +7,5 @@ Like usually, please run pip3 install -r requirements.txt for install all librar
 # run test examples
 Not all examples,mentioned in the blog article are available in tests in this repo, but few the most essential ones.
 To run tests you can simply type in commeand line 
-$ python3 test_...py
+$ python3 -m unittest test_*.py
+
