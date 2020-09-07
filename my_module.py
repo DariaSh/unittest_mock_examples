@@ -2,8 +2,8 @@ from bucket import Bucket
 from utils.bucket_reader import read, get_bucket
 
 
-def my_method(bucket_name: str, blob_name: str) -> str:
-    bucket_to_read = get_bucket(bucket_name)
+def my_method(project: str, bucket_name: str, blob_name: str) -> str:
+    bucket_to_read = get_bucket(project, bucket_name)
     return read(bucket_to_read, blob_name)
 
 

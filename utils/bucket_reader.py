@@ -2,9 +2,9 @@ from google.cloud import storage
 from bucket import Bucket
 
 
-def get_bucket(bucket_name: str) -> Bucket:
+def get_bucket(project_name: str, bucket_name: str) -> Bucket:
     # instantiating object Bucket here
-    return Bucket("some bucket")
+    return Bucket(project_name).get_bucket(bucket_name)
 
 
 def read(bucket_to_read: Bucket, blob_name: str) -> str:
